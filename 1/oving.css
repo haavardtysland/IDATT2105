@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    background-color:darkslategray;
+}
+.Container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background:transparent;
+    color: darkkhaki;}
+
+footer a {
+    color: darkkhaki;
+}
+
+.Menubar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right:auto;
+}
+
+.Menu-Links {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+.Menu-Links a {
+    color:darkkhaki;
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.Menu-Links :hover {
+    border-bottom: 1px solid darkkhaki;
+}
+
+h1{
+    font-size:80px;
+}
+
+h5{
+    font-size:30px;
+}
+
+
+.Header {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid darkkhaki;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2%;
+}
+
+
+h5, h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color:darkkhaki;
+}
+
+.Bilder {
+    height: 350px;
+    width: 350px;
+    border:2px solid white;
+    border-radius:50%;
+
+}
+
+
+.Main {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+
+.Main Div{
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+.VG{
+    padding-left:50%;
+    padding-right:5%;
+
+}
+
+.NRK{
+    padding-left:50%;
+    padding-right:5%;   
+}
+
+.TV2{
+    padding-left:5%;
+    padding-right:50%;
+}
+
+.Dagbladet{
+    padding-left:5%;
+    padding-right:50%;
+}
+

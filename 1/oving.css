@@ -1,8 +1,10 @@
+
 body {
     margin: 0px;
     font-family:'Courier New', Courier, monospace;
     background-color:darkslategray;
 }
+
 .Container {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,7 +14,11 @@ footer {
     text-align: center;
     padding: 3px;
     background:transparent;
-    color: darkkhaki;}
+    color: darkkhaki;
+    background:#27292a;
+    overflow:none;
+
+}
 
 footer a {
     color: darkkhaki;
@@ -71,17 +77,21 @@ h5, h1 {
 }
 
 .Bilder {
-    height: 350px;
-    width: 350px;
-    border:2px solid white;
+    height: auto;
+    width: 100%;
+    border:2px solid black;
     border-radius:50%;
 
+}
+
+.Bilder:hover{
+    border:2px solid white;
 }
 
 
 .Main {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     position: relative;
 }
 
